@@ -253,10 +253,13 @@ nav{
     border-radius: 5px;
     box-shadow: 0 1px 4px var(--theme-9d);
     padding: 5px;
+    cursor: pointer;
 }
 .card-img{
     /* border: 2px solid var(--theme-f); */
+    /* cursor: pointer; */
     overflow: hidden;
+    align-self: center;
     /* box-shadow: 0 0 4px var(--theme-9d); */
 }
 .card-img > img{
