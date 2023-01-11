@@ -20,7 +20,7 @@
     <!-- ----------Header---------- -->
     <header>
         <!-- ----------Brand Logo---------- -->
-        <img src="Imgs/Web IT Smart_1.png" id="brand-logo" alt="Brand Logo">
+        <img src="/Imgs/Web IT Smart_1.png" id="brand-logo" alt="Brand Logo">
         <!-- ----------Theme Switcher---------- -->
         <!-- <div id="themes">
             <input type="radio" name="Theme" class="theme" id="theme-dark" checked title="Dark Theme" name="theme">
@@ -41,14 +41,26 @@
     </header>
 
     <div class="container">
-        <div class="card-text">
+        <div class="page-head">
             Shutdown in Windows 11
         </div>
         <div class="container-body">
-            Without proper shutdown, the pc's performance decreases.
-            In Windows 11, Shutdown button from <kbd>Power Option</kbd> doesnot shutdown your system properly.
+            <p>Without proper shutdown, the pc's performance decreases.</p>
+            <p>In Windows 11, any shutdown method doesnot shutdown your system properly. To fix this you have two solutions:
+                <li>Restart your system everyday</li>
+                <li>Use <em class="in-li">Command Prompt</em> everytime you shutdown your system.</li>
+            </p>
+            <p>Shutdown commands for command prompt:
+                <li class="unordered-list">shutdown/s - Shutdown the system (after 30 seconds)</li>
+                <li class="unordered-list">shutdown/r - Restart the system (after 30 seconds)</li>
+                <li class="unordered-list">shutdown/h - Hibernate the system (after 30 seconds)</li>
+                <li class="unordered-list">shutdown/p - Instant shutdown</li>
+                <li class="unordered-list">shutdown/a - Abort the system shutdown</li>
+            </p>
             
         </div>
+
+        <!-- <a href="#">More About Shutdown</a> -->
 
     </div>
 

@@ -276,8 +276,22 @@ nav{
     color: var(--theme-75);
     padding: 5px;
 }
+
+/******************* Content Pages *******************/
+.page-head{
+    font-family: var(--font-heading);
+    /* border: 2px solid red; */
+    padding: 20px;
+    font-size: 1.5em;
+    color: var(--theme-color);
+    text-align: center;
+}
 .container-body{
+    border: 2px solid red;
+    padding: 10px;
+    text-align: justify;
     font-family: var(--font-body);
+    font-size: 1.3em;
 }
 kbd{
     background: var(--body-4);
@@ -285,13 +299,23 @@ kbd{
     border-radius: 4px;
     font-family: var(--font-rajdhani);
 }
+p{
+    margin: 10px;
+}
+li{
+    margin-left: 20px;
+    color: var(--theme-75);
+}
+.in-li{
+    color: var(--theme-75);
+}
 
 
 
 
 
 
-
+/******************* Footer *******************/
 footer{
     /* border: 2px solid var(--theme-f); */
     margin-top: 10vh;
