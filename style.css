@@ -298,9 +298,12 @@ nav{
     font-family: var(--font-body);
     font-size: 1.2em;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
 }
+/* .left-aside{
+    position: relative;
+} */
 .left-link{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -315,7 +318,9 @@ nav{
 }
 kbd{
     background: var(--body-4);
-    padding: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin: 2px;
     border-radius: 4px;
     font-family: var(--font-rajdhani);
 }
@@ -326,6 +331,7 @@ p{
 li{
     max-width: 480px;
     margin-left: 20px;
+    margin-bottom: 1px;
     color: var(--theme-75);
 }
 .in-li{
