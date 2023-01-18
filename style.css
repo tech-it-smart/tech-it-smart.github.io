@@ -27,7 +27,7 @@
     --font-rubic: 'Rubik 80s Fade', cursive;
     --btn-width: 25vw;
 }
-body{
+html {
     scroll-behavior: smooth;
 }
 #preloader{
