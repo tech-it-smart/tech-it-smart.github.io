@@ -178,8 +178,6 @@ nav{
     border: none;
     border-bottom: 2px solid #0f08;
     background: transparent;
-    border-top-left-radius: 1vh;
-    border-top-right-radius: 1vh;
     transition: width 500ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
     animation: search .3s 1 .9s forwards cubic-bezier(0.68, -0.55, 0.27, 1.55);
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
@@ -269,12 +267,12 @@ nav{
     width: 100%;
 }
 .card-text{
-    /* border: 2px solid var(--theme-f); */
+    /* border: 2px solid var(--theme-75); */
     font-family: var(--font-body);
     font-size: 1.2em;
 }
 .card-date{
-    /* border: 2px solid var(--theme-f); */
+    /* border: 2px solid var(--theme-75); */
     height: 3vh;
     font-size: xx-small;
     color: var(--theme-75);
@@ -312,7 +310,7 @@ nav{
 }
 .container-img{
     height: 250px;
-    float: right;
+    /* float: right; */
     border-radius: 8px;
     margin: 10px;
     /* box-shadow: 0 0 8px var(--body-8); */
@@ -322,7 +320,7 @@ kbd{
     background: var(--body-4);
     padding-left: 2px;
     padding-right: 2px;
-    margin: 2px;
+    /* margin: 2px; */
     border-radius: 4px;
     font-family: var(--font-rajdhani);
 }
