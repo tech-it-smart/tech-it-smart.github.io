@@ -1,0 +1,80 @@
+@media (max-width: 450px) {
+    :root {
+        --btn-width: 50vw;
+    }
+    #preloader{
+        width: 100vw;
+    }
+    nav{
+        width: 35vw;
+    }
+    .container-home{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #landed{
+        width: fit-content;
+    }
+    #search-bar{
+        width: 60vw;
+    }
+    #intro-video{
+        width: 75vw;
+    }
+    .topics{
+        grid-template-columns: 1fr;
+    }
+    .cards{
+        width: 80vw;
+    }
+
+
+    /* Content Page */
+    .container-body{
+        width: 95vw;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        flex-direction: column-reverse;
+    }
+    .left-aside{
+        border: 2px solid var(--theme-75);
+        width: 90vw;
+        align-self: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 5vw;
+        margin-bottom: 10vw;
+    }
+    .left-link{
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    li{
+        margin-left: 10px;
+    }
+    .container-img{
+        width: 85vw;
+        margin-bottom: 10vw;
+    }
+
+    /* footer */
+    footer{
+        height: 25vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    :is(.foot-head, .social){
+        margin-bottom: 10px;
+        gap: 2px;
+    }
+
+
+
+
+}
