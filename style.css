@@ -26,7 +26,6 @@
     --font-rajdhani: 'Rajdhani', sans-serif;
     --font-rubic: 'Rubik 80s Fade', cursive;
     --btn-width: 25vw;
-    --foot-height: 25vh;
 }
 html {
     scroll-behavior: smooth;
@@ -348,7 +347,7 @@ li{
 footer{
     /* border: 2px solid var(--theme-f); */
     margin-top: 10vh;
-    height: var(--foot-height);
+    height: 25vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -356,7 +355,6 @@ footer{
     border-radius: 8px;
 }
 .foot-form{
-    height: var(--foot-height);
     display: flex;
     align-items: center;
     justify-content: center;
