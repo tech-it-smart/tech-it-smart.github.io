@@ -516,13 +516,25 @@ footer{
     }
 
     /* footer */
-    /* footer{
+    footer{
+        height: 30vh;
         display: grid;
-        
-    } */
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        /* grid-template-columns: 2fr, 1fr; */
+    }
+    .foot-form{
+        grid-row-end: span 3;
+        margin: 10px;
+    }
     :is(.foot-head, .social){
-        margin-bottom: 10px;
         gap: 2px;
+        margin: 10px;
+        background: transparent;
+    }
+    .brand-t{
+        margin: 10px;
+        background: transparent;
     }
 
 
