@@ -513,8 +513,8 @@ footer{
         /* border: 2px solid var(--theme-75); */
         margin: 2vw;
     }
-    li{
-        margin-left: 10px;
+    th{
+        width: 20vw;
     }
     .container-img{
         width: 85vw;
