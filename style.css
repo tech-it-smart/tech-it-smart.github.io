@@ -328,11 +328,15 @@ p{
     margin: 10px;
     max-width: 500px;
 }
-li{
-    max-width: 480px;
-    margin-left: 20px;
-    margin-bottom: 1px;
+th{
+    /* border: 2px solid #0f0; */
+    width: 12vw;
+    padding: 8px;
+}
+td{
+    /* border: 2px solid #0f0; */
     color: var(--theme-75);
+    padding: 8px;
 }
 .in-li{
     color: var(--theme-75);
@@ -491,21 +495,23 @@ footer{
         width: 95vw;
         display: flex;
         align-items: center;
-        justify-content: right;
+        justify-content: center;
         flex-direction: column-reverse;
     }
     .left-aside{
-        border: 2px solid var(--theme-75);
+        /* border: 2px solid var(--theme-75); */
+        border-radius: 8px;
+        box-shadow: inset 0 0 8px var(--theme-75);
         width: 90vw;
         align-self: center;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin-top: 5vw;
+        margin-top: 10vw;
         margin-bottom: 10vw;
     }
     .left-link{
-        margin-top: 0px;
-        margin-left: 10px;
+        /* border: 2px solid var(--theme-75); */
+        margin: 2vw;
     }
     li{
         margin-left: 10px;
