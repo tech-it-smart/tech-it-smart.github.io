@@ -528,8 +528,14 @@ footer{
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
         /* grid-template-columns: 2fr, 1fr; */
+    }   
+    .btn-underline{
+        width: 10vw;
+        transition: width 500ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
     }
-    
+    .telegram-btn:hover .btn-underline{
+        width: 25vw;
+    }
     .foot-form{
         grid-row-end: span 3;
         margin-left: 10px;
