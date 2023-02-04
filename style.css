@@ -278,6 +278,12 @@ nav{
     color: var(--theme-75);
     padding: 5px;
 }
+#card-ad{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 25px;
+}
 
 /******************* Content Pages *******************/
 .page-head{
