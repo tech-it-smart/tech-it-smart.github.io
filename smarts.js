@@ -4,6 +4,11 @@ function loader() {
     preload.style.display = "none";
 }
 
+// Ad close
+function closead() {
+  document.getElementById('card-ad').remove();
+}
+
 // Theme Switcher
 const colorThemes = document.querySelectorAll('[name="theme"]');
 
