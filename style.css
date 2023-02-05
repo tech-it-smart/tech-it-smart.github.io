@@ -385,6 +385,7 @@ footer{
     background: transparent;
 }
 .telegram-btn{
+    outline: none;
     display: flex;
     flex-direction: column;
     align-items: center;
