@@ -1,7 +1,7 @@
 // Preloader
 var  preload = document.getElementById("preloader");
 function loader() {
-    preload.style.display = "none";
+    preload.remove();
 }
 
 // Ad close
