@@ -284,6 +284,19 @@ nav{
     justify-content: center;
     gap: 25px;
 }
+.ad-close{
+    opacity: 0;
+    font-size: 15px;
+    animation: adcloser 1s 5s 1 forwards;
+}
+@keyframes adcloser {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
 /******************* Content Pages *******************/
 .page-head{
