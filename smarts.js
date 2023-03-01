@@ -38,3 +38,10 @@ colorThemes.forEach((themeOption) => {
 });
 
 document.onload = setTheme();
+
+
+// Version in Footer
+
+
+// Copyright in Footer
+
