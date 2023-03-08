@@ -45,3 +45,8 @@ document.querySelector(".version").innerHTML = "v1.8"
 
 // Copyright in Footer
 document.querySelector(".copyright").innerHTML = "&copy; 2023 Tech IT Smart";
+
+// Logo redirecting to Home Page
+function logoHome() {
+  location.href="https://tech-it-smart.github.io/"
+}

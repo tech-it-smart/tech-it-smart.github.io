@@ -80,7 +80,7 @@ header:hover{
     padding: 10px;
     background: transparent;
     height: 10vh;
-    cursor: none;
+    cursor: pointer;
     filter: brightness(125%);
 }
 #themes{
