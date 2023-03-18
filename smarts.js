@@ -50,3 +50,4 @@ document.querySelector(".copyright").innerHTML = "&copy; 2023 Tech IT Smart";
 function logoHome() {
   location.href="https://tech-it-smart.github.io/"
 }
+
