@@ -51,3 +51,16 @@ function logoHome() {
   location.href="https://tech-it-smart.github.io/"
 }
 
+// Under Development Cards 
+let fifth = document.getElementById("card-5");
+let sixth = document.getElementById("card-6");
+function undev() {
+  // style & html for fifth 
+  fifth.style.color = "#0f0";
+  fifth.style.textAlign = "center";
+  fifth.innerHTML = "<br> <br> <br> Under Development <br> <br> <br> Sorry for the inconvenience caused";
+  // style & html for sixth
+  sixth.style.color = "#0f0";
+  sixth.style.textAlign = "center";
+  sixth.innerHTML = "<br> <br> <br> Under Development <br> <br> <br> Sorry for the inconvenience caused";
+}
