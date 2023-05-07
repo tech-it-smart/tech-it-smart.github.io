@@ -1,3 +1,13 @@
+// Under Development
+setTimeout(() => {
+  alert("The Website is Under Development")
+  console.log("The Website is Under Development")
+  
+  alert("For any assistance, contact through telegram")
+  console.log("For any assistance, contact through telegram")
+}, 5000);
+
+
 // Preloader
 var  preload = document.getElementById("preloader");
 function loader() {
