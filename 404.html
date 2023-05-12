@@ -11,53 +11,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Josefin+Sans&family=Prosto+One&family=Rajdhani:wght@600&family=Rubik+80s+Fade&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <!-- JavaScript -->
+    <script src="append.js" defer></script>
+    <script src="script.js" defer></script>
+
 </head>
-<!-- ----------Body---------- -->
-
 <body>
-    <!-- ----------Preloader---------- -->
-    <!-- <div id="preloader"></div> -->
-    <!-- ----------Header---------- -->
     <header>
-        <!-- ----------Brand Logo---------- -->
-        <img src="Imgs/Web IT Smart_1.png" id="brand-logo" alt="Brand Logo" onclick="logoHome()">
-        <!-- ----------Navigation---------- -->
-        <nav>
-            <a href="https://tech-it-smart.github.io" target="_blank">
-                <img src="Imgs/Fav IT Smart_2.png" alt="Home" height="48px" id="tis">
-            </a>
-            <a href="https://www.youtube.com/@Techitsmartofficial" target="_blank">
-                <img src="Imgs/yt_icon.png" alt="YouTube" id="ytc">
-            </a>
-            <a href="https://t.me/TechITsmart" target="_blank">
-                <img src="Imgs/tg_icon.png" alt="Telegram" id="tgc">
-            </a>
-        </nav>
-    </header>
-    <!-- ----------Expanding Underline---------- -->
-    <!-- <div class="head-underline"></div> -->
-    <!-- ----------Container---------- -->
-    <div class="container">
-        <!-- ----------Intro---------- -->
-        <section class="container-home">
-            <!-- ----------Search---------- -->
-            <div id="landed">
-                <div id="pg-404">
-                    404 <br>
-                    Page Not Found
-                </div>
-                <div class="landing-text">
-                    Click on the logo to go to the website.
-                </div>
-            </div>
-            <!-- ----------Video---------- -->
-            <video src="Imgs/Intro IT Smart.mp4" autoplay muted  id="intro-video" onclick=location.href="https://tech-it-smart.github.io"></video>
-        </section>
-    </div>
 
+    </header>
+    <!-- ----------Container---------- -->
+    <section id="landings">
+        <div class="landing-left">
+            <div id="oops">
+                Oops!
+            </div>
+            <div id="text-404">
+                404 - Page Not Found
+            </div>
+        </div>
+        <video src="assets/intro.mp4" id="landing-video" autoplay muted></video>
+    </section>
 
 
     
 </body>
-<script src="/smarts.js"></script>
 </html>
