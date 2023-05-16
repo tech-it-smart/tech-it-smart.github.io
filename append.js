@@ -22,35 +22,35 @@ navbar.setAttribute("id", "header-navbar");
 const navHome = document.createElement("a");
 navHome.setAttribute("class", "link-header");
 navHome.setAttribute("href", "https://tech-it-smart.github.io/");
-navHome.innerHTML = "Home<span class='nav-underline'></span>"
+navHome.innerHTML = "Home <span class='nav-underline'></span>"
 navbar.appendChild(navHome);
 
 // Solutions
 const navSolutions = document.createElement("a");
 navSolutions.setAttribute("class", "link-header");
 navSolutions.setAttribute("href", "https://tech-it-smart.github.io/solutions/");
-navSolutions.innerHTML = "Solutions<span class='nav-underline'></span>"
+navSolutions.innerHTML = "Solutions <span class='nav-underline'></span>"
 navbar.appendChild(navSolutions);
 
 // Tools
 const navTools = document.createElement("a");
 navTools.setAttribute("class", "link-header");
 navTools.setAttribute("href", "https://tech-it-smart.github.io/tools/");
-navTools.innerHTML = "Tools<span class='nav-underline'></span>"
+navTools.innerHTML = "Tools <span class='nav-underline'></span>"
 navbar.appendChild(navTools);
 
 // Learn WebDev
 const navLearnWebDev = document.createElement("a");
 navLearnWebDev.setAttribute("class", "link-header");
 navLearnWebDev.setAttribute("href", "https://tech-it-smart.github.io/web-dev/");
-navLearnWebDev.innerHTML = "Web Dev<span class='nav-underline'></span>"
+navLearnWebDev.innerHTML = "Web Dev <span class='nav-underline'></span>"
 navbar.appendChild(navLearnWebDev);
 
 // About Us
 const navAboutUs = document.createElement("a");
 navAboutUs.setAttribute("class", "link-header");
 navAboutUs.setAttribute("href", "https://tech-it-smart.github.io/about-us.html");
-navAboutUs.innerHTML = "About Us<span class='nav-underline'></span>"
+navAboutUs.innerHTML = "About Us <span class='nav-underline'></span>"
 navbar.appendChild(navAboutUs);
 
 header.appendChild(navbar);
@@ -102,7 +102,7 @@ footerTopLeft.appendChild(discordChannelButton)
 const contactUs = document.createElement("a")
 contactUs.setAttribute("href", "contact-us.html")
 contactUs.setAttribute("class", "footer-nav")
-contactUs.textContent = "Contact Us"
+contactUs.innerHTML = "Contact Us <span class='nav-underline'></span>"
 footerTopLeft.appendChild(contactUs)
 
 footerTop.appendChild(footerTopLeft)
@@ -124,14 +124,14 @@ const promotiomPage = document.createElement("a")
 promotiomPage.setAttribute("href", "promotion.html")
 promotiomPage.setAttribute("class", "footer-nav")
 promotiomPage.setAttribute("target", "_blank")
-promotiomPage.textContent = "Promote Yourself Here"
+promotiomPage.innerHTML = "Promote Yourself Here <span class='nav-underline'></span>"
 footerTopRight.appendChild(promotiomPage)
 
 // Privacy Policy
 const privacyPolicy = document.createElement("a")
 privacyPolicy.setAttribute("href", "privacy-policy.html")
 privacyPolicy.setAttribute("class", "footer-nav")
-privacyPolicy.textContent = "Privacy Policy"
+privacyPolicy.innerHTML = "Privacy Policy <span class='nav-underline'></span>"
 footerTopRight.appendChild(privacyPolicy)
 
 footerTop.appendChild(footerTopRight)
