@@ -74,10 +74,6 @@ loginButton.setAttribute("id", "login-btn");
 loginButton.textContent = "Login";
 header.appendChild(loginButton);
 
-// Landing Video
-const landingVideo = document.querySelector("#landing-video");
-landingVideo.setAttribute("src", "./assets/intro.mp4");
-
 // Footer
 const footer = document.querySelector("footer")
 
