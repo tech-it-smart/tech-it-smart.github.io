@@ -140,7 +140,7 @@ footerBottom.setAttribute("id", "footer-bottom")
 
 // Footer Navigation 
 const footerNav = document.createElement("nav")
-footerNav.setAttribute("id", "footer-nav")
+footerNav.setAttribute("id", "footer-social-media")
 
 // YouTube
 const navYouTube = document.createElement("a")
