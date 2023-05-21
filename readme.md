@@ -12,6 +12,8 @@ Thank you for choosing Tech IT Smart.
 
 ---
 
+Social Media
+---
 - [YouTube](https://www.youtube.com/@Techitsmartofficial)
 - [Discord](https://discord.gg/Vg5vEJj6)
 - [Instagram](https://www.instagram.com/techitsmartofficial/)
@@ -19,6 +21,16 @@ Thank you for choosing Tech IT Smart.
 - [LinkedIn](https://www.linkedin.com/company/tech-it-smart/)
 - **Gmail**: _info.techitsmart@google.com_
 
----
 
+Site Map
+---
+- [Home Page](https://tech-it-smart.github.io)
+- [Solutions](https://tech-it-smart.github.io/solutions)
+- [Tools](https://tech-it-smart.github.io/tools)
+- [About Us](https://tech-it-smart.github.io/about-us.html)
+- [Contact Us](https://tech-it-smart.github.io/contact-us.html)
+- [Promotion Form](https://tech-it-smart.github.io/promotion.html)
+- [Privacy Policy](https://tech-it-smart.github.io/privacy-policy.html)
+
+---
 ### **v2.0**
