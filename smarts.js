@@ -24,12 +24,12 @@ function showNotification() {
           body: "Contact through Discord/Telegram",
           icon: "/Imgs/Fav IT Smart_2.png"
       })
-  }
-  
-  notify.onclick = function() {
-    location.href = "https://discord.gg/Vg5vEJj6"
-    console.log("Notification Clicked")
-    localStorage.setItem(currentDate, "Notification clicked")
+      
+      notify.onclick = function() {
+        location.href = "https://discord.gg/Vg5vEJj6"
+        console.log("Notification Clicked")
+        localStorage.setItem(currentDate, "Notification clicked")
+      }
   }
 }
 console.log(Notification.permission)
