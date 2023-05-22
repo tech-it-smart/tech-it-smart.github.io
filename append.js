@@ -152,7 +152,7 @@ footerNav.appendChild(navYouTube)
 
 // Discord
 const navDiscord = document.createElement("a")
-navDiscord.setAttribute("href", "https://discord.gg/Vg5vEJj6")
+navDiscord.setAttribute("href", "https://discord.gg/HEbRJVaqp2")
 navDiscord.setAttribute("class", "social-link")
 navDiscord.setAttribute("title", "Discord")
 navDiscord.innerHTML = '<i class="fa-brands fa-discord" style="color: #5865f2;"></i>'
