@@ -26,7 +26,7 @@ function showNotification() {
       })
       
       notify.onclick = function() {
-        location.href = "https://discord.gg/Vg5vEJj6"
+        location.href = "https://discord.gg/HEbRJVaqp2"
         console.log("Notification Clicked")
         localStorage.setItem(currentDate, "Notification clicked")
       }
