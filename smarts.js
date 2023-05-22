@@ -8,8 +8,34 @@ let currentDate = new Date().toLocaleDateString("en-US", {
 localStorage.setItem(pageTitle, currentDate)
 
 
+// Notification
+if (Notification.permission === "granted") {
+  showNotification()
+} else if (Notification.permission !== "denied") {
+  Notification.requestPermission().then(permission => {
+      if (permission === "granted") {
+          showNotification()
+      }
+  })
+}
+function showNotification() {
+  if ("Notification" in window) {
+      const notify = new Notification("Website Under Development", {
+          body: "Contact through Discord/Telegram",
+          icon: "/Imgs/Fav IT Smart_2.png"
+      })
+  }
+  console.log(Notification.permission)
+
+  notify.onclick = function() {
+      console.log("Notification Clicked")
+      localStorage.setItem(currentDate, "Notification clicked")
+  }
+}
 
 
+
+/*
 // Under Development
 setTimeout(() => {
   alert("The Website is Under Development")
@@ -18,6 +44,7 @@ setTimeout(() => {
   alert("For any assistance, contact through telegram")
   console.log("For any assistance, contact through telegram")
 }, 5000);
+*/
 
 
 // Preloader
