@@ -1,3 +1,15 @@
+// Storing Accessing Dates
+let pageTitle = document.title
+let currentDate = new Date().toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "short",
+    day: "numeric"
+})
+localStorage.setItem(pageTitle, currentDate)
+
+
+
+
 // Under Development
 setTimeout(() => {
   alert("The Website is Under Development")
