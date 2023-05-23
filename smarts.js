@@ -19,7 +19,7 @@ if (Notification.permission === "granted") {
   })
 }
 function showNotification() {
-  if ("Notification" in window) {
+  if ("Notification" in window || "serviseWorker" in navigator) {
       const notify = new Notification("Website Under Development", {
           body: "Contact through Discord/Telegram",
           icon: "/Imgs/Fav IT Smart_2.png"
