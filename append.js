@@ -209,6 +209,9 @@ footerEnd.appendChild(copyright)
 const siteVersion = document.createElement("div")
 siteVersion.setAttribute("id", "version")
 siteVersion.textContent = "v2.0"
+siteVersion.addEventListener("click", () => {
+    location.href = "/local-storage.html"
+})
 footerEnd.appendChild(siteVersion)
 
 footerBottom.appendChild(footerEnd)
