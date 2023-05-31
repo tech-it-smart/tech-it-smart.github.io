@@ -223,9 +223,9 @@ nav{
     margin-top: 10vh;
 } */
 .topics-heading{    
-    /* border: 2px solid var(--theme-f); */
+    /* border: 2px solid var(--theme-f);
     border-radius: 8px;
-    box-shadow: inset 0 0 8px #2F4858;
+    box-shadow: inset 0 0 8px #2F4858; */
     margin-left: 20vw !important;
     margin-right: 20vw !important;
     margin: 10vh;
