@@ -95,7 +95,7 @@ document.onload = setTheme();
 
 
 // Version in Footer
-document.querySelector(".version").innerHTML = "v1.8"
+document.querySelector(".version").innerHTML = "v1.9"
 
 // Copyright in Footer
 document.querySelector(".copyright").innerHTML = "&copy; 2023 Tech IT Smart";
