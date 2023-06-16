@@ -33,10 +33,51 @@ function showNotification() {
             localStorage.setItem("Notification clicked", currentDate)
         }
     }
-    console.log(Notification.permission)
+    console.log(" Notification Permission:", Notification.permission)
 }
-const accessLogs = localStorage.getItem(pageTitle, currentDate)
-console.log(accessLogs)
+
+
+// Like Button Feature
+const likeButtons = document.querySelectorAll(".card-like")
+likeButtons.forEach(element => {
+    element.addEventListener("click", likeButtonClick)
+})
+
+function likeButtonClick(cardId) {
+    console.log(MouseEvent.target);
+    const likedCards = getLikedCards()
+
+    if (likedCards.includes(cardId)) {
+        const updateLikedCards = likedCards.filter(id => id !== cardId)
+        setLikedCards(updateLikedCards)
+    } else {
+        likedCards.push(cardId)
+        setLikedCards(likedCards)
+    }
+}
+
+function getLikedCards() {
+    const likedCards = localStorage.getItem("likedCards")
+    return likedCards ? JSON.parse(likedCards) : []
+}
+
+function setLikedCards() {
+    localStorage.setItem("likedCards", JSON.stringify(likedCards))
+}
+
+
+
+const shareButtons = document.querySelectorAll(".fa-share-from-square")
+shareButtons.forEach(shareButton => {
+    shareButton.addEventListener("click", copyUrl)
+})
+
+function copyUrl() {
+    navigator.clipboard.writeText(window.location.href)
+    console.log(shareButtons)
+    console.log(shareButton)
+}
+
 
 
 
