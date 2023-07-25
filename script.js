@@ -1,3 +1,33 @@
+// Card Click Actions 
+const shutdownWin11 = document.querySelector("#card-1")
+shutdownWin11.onclick = function() {
+    location.href = "Solutions/Shutdown-Windows-11.html"
+}
+
+const winKeyShortcut = document.querySelector("#card-2")
+winKeyShortcut.onclick = function() {
+    location.href = "Solutions/shortcuts.html"
+}
+
+const hibernateWin11 = document.querySelector("#card-3")
+hibernateWin11.onclick = function() {
+    location.href = "Solutions/hibernate.html"
+}
+
+const godMode = document.querySelector("#card-4")
+godMode.onclick = function() {
+    location.href = "Solutions/god-mode.html"
+}
+
+const comingSoon = document.querySelector("#card-5")
+comingSoon.onclick = function() {
+    location.href = "Solutions"
+}
+
+
+
+
+
 // Storing Accessing Dates
 const pageTitle = document.title
 const currentDate = new Date().toLocaleDateString("en-US", {
@@ -37,49 +67,6 @@ function showNotification() {
 }
 
 
-// Like Button Feature
-const likeButtons = document.querySelectorAll(".card-like")
-likeButtons.forEach(element => {
-    element.addEventListener("click", likeButtonClick)
-})
-
-function likeButtonClick(cardId) {
-    console.log(MouseEvent.target);
-    const likedCards = getLikedCards()
-
-    if (likedCards.includes(cardId)) {
-        const updateLikedCards = likedCards.filter(id => id !== cardId)
-        setLikedCards(updateLikedCards)
-    } else {
-        likedCards.push(cardId)
-        setLikedCards(likedCards)
-    }
-}
-
-function getLikedCards() {
-    const likedCards = localStorage.getItem("likedCards")
-    return likedCards ? JSON.parse(likedCards) : []
-}
-
-function setLikedCards() {
-    localStorage.setItem("likedCards", JSON.stringify(likedCards))
-}
-
-
-
-const shareButtons = document.querySelectorAll(".fa-share-from-square")
-shareButtons.forEach(shareButton => {
-    shareButton.addEventListener("click", copyUrl)
-})
-
-function copyUrl() {
-    navigator.clipboard.writeText(window.location.href)
-    console.log(shareButtons)
-    console.log(shareButton)
-}
-
-
-
 
 
 const allSolutionsCard = document.querySelector("#all-solutions")
@@ -90,11 +77,11 @@ function allSolutions() {
 
 
 
-const allToolsCard = document.querySelector("#all-tools")
-allToolsCard.addEventListener("click", allTools)
-function allTools() {
-    location.href="/tools/"
-}
+// const allToolsCard = document.querySelector("#all-tools")
+// allToolsCard.addEventListener("click", allTools)
+// function allTools() {
+//     location.href="/tools/"
+// }
 
 
 /*

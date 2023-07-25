@@ -113,7 +113,7 @@
     <!-- Landing Container -->
     <section class="container" id="landings">
       <!-- Left side of landing container -->
-      <div class="landing-left">
+      <main class="landing-left">
         <!-- Landing Text  -->
         <article id="landing-text">
           Welcome to Tech IT Smart, where we offer intelligent solutions for all
@@ -142,7 +142,7 @@
         >
           expand_more
         </span>
-      </div>
+      </main>
 
       <!-- Right side of the landing container : A video : will be played only once on loading -->
       <video src="assets/intro.mp4" id="landing-video" autoplay muted></video>
@@ -155,225 +155,399 @@
 
       <!-- Topics - Cards -->
       <div class="card-container">
-        <div class="cards">
-          <div class="card-img">
-            <img src="assets/win-key.jpg" alt="All Window Key Shortcuts" />
+        <div class="cards" id="card-2">
+          <div class="card-content">
+            <div class="card-title">Windows Shortcuts</div>
+            <div class="card-info">
+              <div class="card-date">12-01-2023</div>
+            </div>
           </div>
-          <div class="card-text">Windows Shortcuts</div>
-          <div class="card-end">
-            <div class="card-date"></div>
-            <div class="card-feature">
-              <i class="fa-solid fa-share-from-square" style="color: #00ff00;"></i>
-              <i class="fa-solid fa-heart card-like" style="color: #00ff00;"></i>
+        </div>
+        <div class="cards" id="card-1">
+          <div class="card-content">
+            <div class="card-title">Shutdown in Windows 11</div>
+            <div class="card-info">
+              <div class="card-date">11-01-2023</div>
+            </div>
+          </div>
+        </div>
+        <div class="cards" id="card-3">
+          <div class="card-content">
+            <div class="card-title">Hibernate in Windows 11/10</div>
+            <div class="card-info">
+              <div class="card-date">16-01-2023</div>
+            </div>
+          </div>
+        </div>
+        <div class="cards card-hid" id="card-4">
+          <div class="card-content">
+            <div class="card-title">God Mode in Windows</div>
+            <div class="card-info">
+              <div class="card-date">23-01-2023</div>
+            </div>
+          </div>
+        </div>
+        <div class="cards card-hid" id="card-5">
+          <div class="card-content">
+            <div class="card-title">Coming Soon</div>
+            <div class="card-info">
+              <div class="card-date">23-01-2023</div>
+            </div>
+          </div>
+        </div>
+        <div class="cards" id="all-solutions">
+          <div class="card-content">
+            <div class="card-title">All Solutions</div>
+            <div class="card-info">
+              <div class="card-date">23-01-2023</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="cards">
+          <div class="card-content">
+            <div class="card-title"></div>
+            <div class="card-info">
+              <div class="card-date">16-06-2023</div>
+              <div class="card-action">
+                <i
+                  class="fa-solid fa-share-from-square"
+                  style="color: #00ff00"
+                ></i>
+                <i
+                  class="fa-solid fa-heart card-like"
+                  style="color: #00ff00"
+                ></i>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="cards">
-          <div class="card-img"></div>
-          <div class="card-text">
-            Effortless File Management: Drag and Drop Between Explorer Tabs!
-          </div>
-          <div class="card-end">
-            <div class="card-date"></div>
-            <div class="card-feature">
-              <i class="fa-solid fa-share-from-square" style="color: #00ff00;"></i>
-              <i class="fa-solid fa-heart card-like" style="color: #00ff00;"></i>
+          <div class="card-content">
+            <div class="card-title">Windows Shortcut</div>
+            <div class="card-info">
+              <div class="card-date">16-06-2023</div>
+              <div class="card-action">
+                <i
+                  class="fa-solid fa-share-from-square"
+                  style="color: #00ff00"
+                ></i>
+                <i
+                  class="fa-solid fa-heart card-like"
+                  style="color: #00ff00"
+                ></i>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="cards">
-          <div class="card-img"></div>
-          <div class="card-text">One PC, Multiple Desktop</div>
-          <div class="card-end">
-            <div class="card-date"></div>
-            <div class="card-feature">
-              <i class="fa-solid fa-share-from-square" style="color: #00ff00;"></i>
-              <i class="fa-solid fa-heart card-like" style="color: #00ff00;"></i>
+          <div class="card-content">
+            <div class="card-title">
+              Effortless File Management: Drag and Drop Between Explorer Tabs!
+            </div>
+            <div class="card-info">
+              <div class="card-date">16-06-2023</div>
+              <div class="card-action">
+                <i
+                  class="fa-solid fa-share-from-square"
+                  style="color: #00ff00"
+                ></i>
+                <i
+                  class="fa-solid fa-heart card-like"
+                  style="color: #00ff00"
+                ></i>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="cards">
-          <div class="card-img"></div>
-          <div class="card-text">
-            Side-by-Side Photo Viewing for Stunning Visual Experiences!
-          </div>
-          <div class="card-end">
-            <div class="card-date"></div>
-            <div class="card-feature">
-              <i class="fa-solid fa-share-from-square" style="color: #00ff00;"></i>
-              <i class="fa-solid fa-heart card-like" style="color: #00ff00;"></i>
+          <div class="card-content">
+            <div class="card-title">One PC, Multiple Desktop</div>
+            <div class="card-info">
+              <div class="card-date">16-06-2023</div>
+              <div class="card-action">
+                <i
+                  class="fa-solid fa-share-from-square"
+                  style="color: #00ff00"
+                ></i>
+                <i
+                  class="fa-solid fa-heart card-like"
+                  style="color: #00ff00"
+                ></i>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="cards">
-          <div class="card-img"></div>
-          <div class="card-text">
-            Supercharge Your Productivity with Trackpad Gestures!
-          </div>
-          <div class="card-end">
-            <div class="card-date"></div>
-            <div class="card-feature">
-              <i class="fa-solid fa-share-from-square" style="color: #00ff00;"></i>
-              <i class="fa-solid fa-heart card-like" style="color: #00ff00;"></i>
+          <div class="card-content">
+            <div class="card-title">
+              Side-by-Side Photo Viewing for Stunning Visual Experiences!
+            </div>
+            <div class="card-info">
+              <div class="card-date">16-06-2023</div>
+              <div class="card-action">
+                <i
+                  class="fa-solid fa-share-from-square"
+                  style="color: #00ff00"
+                ></i>
+                <i
+                  class="fa-solid fa-heart card-like"
+                  style="color: #00ff00"
+                ></i>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="cards">
-          <div class="card-img"></div>
-          <div class="card-text">Voice Typing in Windows</div>
-          <div class="card-end">
-            <div class="card-date"></div>
-            <div class="card-feature">
-              <i class="fa-solid fa-share-from-square" style="color: #00ff00;"></i>
-              <i class="fa-solid fa-heart card-like" style="color: #00ff00;"></i>
+          <div class="card-content">
+            <div class="card-title">
+              Supercharge Your Productivity with Trackpad Gestures!
+            </div>
+            <div class="card-info">
+              <div class="card-date">16-06-2023</div>
+              <div class="card-action">
+                <i
+                  class="fa-solid fa-share-from-square"
+                  style="color: #00ff00"
+                ></i>
+                <i
+                  class="fa-solid fa-heart card-like"
+                  style="color: #00ff00"
+                ></i>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="cards">
-          <div class="card-img"></div>
-          <div class="card-text">Windows Spotlight: New Wallpaper Everyday</div>
-          <div class="card-end">
-            <div class="card-date"></div>
-            <div class="card-feature">
-              <i class="fa-solid fa-share-from-square" style="color: #00ff00;"></i>
-              <i class="fa-solid fa-heart card-like" style="color: #00ff00;"></i>
+          <div class="card-content">
+            <div class="card-title">Voice Typing in Windows</div>
+            <div class="card-info">
+              <div class="card-date">16-06-2023</div>
+              <div class="card-action">
+                <i
+                  class="fa-solid fa-share-from-square"
+                  style="color: #00ff00"
+                ></i>
+                <i
+                  class="fa-solid fa-heart card-like"
+                  style="color: #00ff00"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards">
+          <div class="card-content">
+            <div class="card-title">
+              Windows Spotlight: New Wallpaper Everyday
+            </div>
+            <div class="card-info">
+              <div class="card-date">16-06-2023</div>
+              <div class="card-action">
+                <i
+                  class="fa-solid fa-share-from-square"
+                  style="color: #00ff00"
+                ></i>
+                <i
+                  class="fa-solid fa-heart card-like"
+                  style="color: #00ff00"
+                ></i>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="cards" id="all-solutions">
           <div class="card-img">
-            <!-- <img src="assets/logo-small.png" alt="All Solutions"> -->
+            <img src="assets/logo-small.png" alt="All Solutions">
           </div>
-          <div class="card-text">All Solutions</div>
+          <div class="card-title">All Solutions</div>
           <div class="card-end">
             <div class="card-date">14-05-223</div>
             <div class="card-feature">
-              <i class="fa-solid fa-share-from-square" style="color: #00ff00;"></i>
-              <!-- <i class="fa-solid fa-heart card-like" style="color: #00ff00;"></i> -->
+              <i
+                class="fa-solid fa-share-from-square"
+                style="color: #00ff00"
+              ></i>
+              <i class="fa-solid fa-heart card-like" style="color: #00ff00;"></i>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
 
     <!-- Review Container -->
-    <section class="container" id="reviews">
-      <!-- Container Heading  -->
+    <!-- <section class="container" id="reviews">
       <h1 class="section-head topic-head">Helpful Tools</h1>
 
-      <!-- Topics - Cards -->
+       Topics - Cards 
       <div class="card-container">
         <div class="cards">
-          <div class="card-img"></div>
-          <div class="card-text">Dive into Productivity: Focus Sessions</div>
-          <div class="card-end">
-            <div class="card-date"></div>
-            <div class="card-feature">
-              <i class="fa-solid fa-share-from-square" style="color: #00ff00;"></i>
-              <i class="fa-solid fa-heart card-like" style="color: #00ff00;"></i>
+          <div class="card-content">
+            <div class="card-title">Dive into Productivity: Focus Sessions</div>
+            <div class="card-info">
+              <div class="card-date">16-06-2023</div>
+              <div class="card-action">
+                <i
+                  class="fa-solid fa-share-from-square"
+                  style="color: #00ff00"
+                ></i>
+                <i
+                  class="fa-solid fa-heart card-like"
+                  style="color: #00ff00"
+                ></i>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="cards">
-          <div class="card-img"></div>
-          <div class="card-text">Earn Rewards with Windows Search</div>
-          <div class="card-end">
-            <div class="card-date"></div>
-            <div class="card-feature">
-              <i class="fa-solid fa-share-from-square" style="color: #00ff00;"></i>
-              <i class="fa-solid fa-heart card-like" style="color: #00ff00;"></i>
+          <div class="card-content">
+            <div class="card-title">Earn Rewards with Windows Search</div>
+            <div class="card-info">
+              <div class="card-date">16-06-2023</div>
+              <div class="card-action">
+                <i
+                  class="fa-solid fa-share-from-square"
+                  style="color: #00ff00"
+                ></i>
+                <i
+                  class="fa-solid fa-heart card-like"
+                  style="color: #00ff00"
+                ></i>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="cards">
-          <div class="card-img"></div>
-          <div class="card-text">Magical Background Removal: remove.bg</div>
-          <div class="card-end">
-            <div class="card-date"></div>
-            <div class="card-feature">
-              <i class="fa-solid fa-share-from-square" style="color: #00ff00;"></i>
-              <i class="fa-solid fa-heart card-like" style="color: #00ff00;"></i>
+          <div class="card-content">
+            <div class="card-title">Magical Background Removal: remove.bg</div>
+            <div class="card-info">
+              <div class="card-date">16-06-2023</div>
+              <div class="card-action">
+                <i
+                  class="fa-solid fa-share-from-square"
+                  style="color: #00ff00"
+                ></i>
+                <i
+                  class="fa-solid fa-heart card-like"
+                  style="color: #00ff00"
+                ></i>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="cards">
-          <div class="card-img"></div>
-          <div class="card-text">PhotoPea: The Photoshop Alternative</div>
-          <div class="card-end">
-            <div class="card-date"></div>
-            <div class="card-feature">
-              <i class="fa-solid fa-share-from-square" style="color: #00ff00;"></i>
-              <i class="fa-solid fa-heart card-like" style="color: #00ff00;"></i>
+          <div class="card-content">
+            <div class="card-title">PhotoPea: The Photoshop Alternative</div>
+            <div class="card-info">
+              <div class="card-date">16-06-2023</div>
+              <div class="card-action">
+                <i
+                  class="fa-solid fa-share-from-square"
+                  style="color: #00ff00"
+                ></i>
+                <i
+                  class="fa-solid fa-heart card-like"
+                  style="color: #00ff00"
+                ></i>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="cards">
-          <div class="card-img"></div>
-          <div class="card-text">Quick Assist: Help Your Friend Remotely</div>
-          <div class="card-end">
-            <div class="card-date"></div>
-            <div class="card-feature">
-              <i class="fa-solid fa-share-from-square" style="color: #00ff00;"></i>
-              <i class="fa-solid fa-heart card-like" style="color: #00ff00;"></i>
+          <div class="card-content">
+            <div class="card-title">
+              Quick Assist: Help Your Friend Remotely
+            </div>
+            <div class="card-info">
+              <div class="card-date">16-06-2023</div>
+              <div class="card-action">
+                <i
+                  class="fa-solid fa-share-from-square"
+                  style="color: #00ff00"
+                ></i>
+                <i
+                  class="fa-solid fa-heart card-like"
+                  style="color: #00ff00"
+                ></i>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="cards">
-          <div class="card-img"></div>
-          <div class="card-text">
-            Screen Recording with Snipping Tool: No Third-Party Software Needed!
-          </div>
-          <div class="card-end">
-            <div class="card-date"></div>
-            <div class="card-feature">
-              <i class="fa-solid fa-share-from-square" style="color: #00ff00;"></i>
-              <i class="fa-solid fa-heart card-like" style="color: #00ff00;"></i>
+          <div class="card-content">
+            <div class="card-title">
+              Screen Recording with Snipping Tool: No Third-Party Software
+              Needed!
+            </div>
+            <div class="card-info">
+              <div class="card-date">16-06-2023</div>
+              <div class="card-action">
+                <i
+                  class="fa-solid fa-share-from-square"
+                  style="color: #00ff00"
+                ></i>
+                <i
+                  class="fa-solid fa-heart card-like"
+                  style="color: #00ff00"
+                ></i>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="cards">
-          <div class="card-img"></div>
-          <div class="card-text">
-            Secure Your PC with Windows Security: No Third-Party Antivirus
-            Required!
-          </div>
-          <div class="card-end">
-            <div class="card-date"></div>
-            <div class="card-feature">
-              <i class="fa-solid fa-share-from-square" style="color: #00ff00;"></i>
-              <i class="fa-solid fa-heart card-like" style="color: #00ff00;"></i>
+          <div class="card-content">
+            <div class="card-title">
+              Secure Your PC with Windows Security: No Third-Party Antivirus
+              Required!
+            </div>
+            <div class="card-info">
+              <div class="card-date">16-06-2023</div>
+              <div class="card-action">
+                <i
+                  class="fa-solid fa-share-from-square"
+                  style="color: #00ff00"
+                ></i>
+                <i
+                  class="fa-solid fa-heart card-like"
+                  style="color: #00ff00"
+                ></i>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="cards" id="all-tools">
           <div class="card-img">
-            <!-- <img src="assets/logo-small.png" alt="All Solutions"> -->
+             <img src="assets/logo-small.png" alt="All Solutions"> 
           </div>
-          <div class="card-text">All Tools</div>
+          <div class="card-title">All Tools</div>
           <div class="card-end">
             <div class="card-date">14-05-223</div>
             <div class="card-feature">
-              <i class="fa-solid fa-share-from-square" style="color: #00ff00;"></i>
-              <!-- <i class="fa-solid fa-heart card-like" style="color: #00ff00;"></i> -->
+              <i
+                class="fa-solid fa-share-from-square"
+                style="color: #00ff00"
+              ></i>
+               <i class="fa-solid fa-heart card-like" style="color: #00ff00;"></i> 
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Review Container -->
     <!-- <section class="container" id="web-dev">
@@ -384,127 +558,106 @@
       <div class="card-container">
 
         <div class="cards">
-          <div class="card-img">
-
-          </div>
-          <div class="card-text">
-
-          </div>
-          <div class="card-end">
-            <div class="card-date">
-
-            </div>
-            <div class="card-feature">
-              <i class="fa-solid fa-share-from-square" style="color: #00ff00;"></i>
-              <i class="fa-solid fa-heart card-like" style="color: #00ff00;"></i>
+          <div class="card-content">
+            <div class="card-title"></div>
+            <div class="card-info">
+              <div class="card-date">
+                16-06-2023
+              </div>
+              <div class="card-action">
+                <i class="fa-solid fa-share-from-square" style="color: #00ff00"></i>
+                <i class="fa-solid fa-heart card-like" style="color: #00ff00"></i>
+              </div>
             </div>
           </div>
         </div>
         
         <div class="cards">
-          <div class="card-img">
-
-          </div>
-          <div class="card-text">
-
-          </div>
-          <div class="card-end">
-            <div class="card-date">
-
-            </div>
-            <div class="card-feature">
-              <i class="fa-solid fa-share-from-square" style="color: #00ff00;"></i>
-              <i class="fa-solid fa-heart card-like" style="color: #00ff00;"></i>
+          <div class="card-content">
+            <div class="card-title"></div>
+            <div class="card-info">
+              <div class="card-date">
+                16-06-2023
+              </div>
+              <div class="card-action">
+                <i class="fa-solid fa-share-from-square" style="color: #00ff00"></i>
+                <i class="fa-solid fa-heart card-like" style="color: #00ff00"></i>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="cards">
-          <div class="card-img">
-
-          </div>
-          <div class="card-text">
-
-          </div>
-          <div class="card-end">
-            <div class="card-date">
-
-            </div>
-            <div class="card-feature">
-              <i class="fa-solid fa-share-from-square" style="color: #00ff00;"></i>
-              <i class="fa-solid fa-heart card-like" style="color: #00ff00;"></i>
+          <div class="card-content">
+            <div class="card-title"></div>
+            <div class="card-info">
+              <div class="card-date">
+                16-06-2023
+              </div>
+              <div class="card-action">
+                <i class="fa-solid fa-share-from-square" style="color: #00ff00"></i>
+                <i class="fa-solid fa-heart card-like" style="color: #00ff00"></i>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="cards">
-          <div class="card-img">
-
-          </div>
-          <div class="card-text">
-
-          </div>
-          <div class="card-end">
-            <div class="card-date">
-
-            </div>
-            <div class="card-feature">
-              <i class="fa-solid fa-share-from-square" style="color: #00ff00;"></i>
-              <i class="fa-solid fa-heart card-like" style="color: #00ff00;"></i>
+          <div class="card-content">
+            <div class="card-title"></div>
+            <div class="card-info">
+              <div class="card-date">
+                16-06-2023
+              </div>
+              <div class="card-action">
+                <i class="fa-solid fa-share-from-square" style="color: #00ff00"></i>
+                <i class="fa-solid fa-heart card-like" style="color: #00ff00"></i>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="cards">
-          <div class="card-img">
-
-          </div>
-          <div class="card-text">
-
-          </div>
-          <div class="card-end">
-            <div class="card-date">
-
-            </div>
-            <div class="card-feature">
-              <i class="fa-solid fa-share-from-square" style="color: #00ff00;"></i>
-              <i class="fa-solid fa-heart card-like" style="color: #00ff00;"></i>
+          <div class="card-content">
+            <div class="card-title"></div>
+            <div class="card-info">
+              <div class="card-date">
+                16-06-2023
+              </div>
+              <div class="card-action">
+                <i class="fa-solid fa-share-from-square" style="color: #00ff00"></i>
+                <i class="fa-solid fa-heart card-like" style="color: #00ff00"></i>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="cards">
-          <div class="card-img">
-
-          </div>
-          <div class="card-text">
-
-          </div>
-          <div class="card-end">
-            <div class="card-date">
-
-            </div>
-            <div class="card-feature">
-              <i class="fa-solid fa-share-from-square" style="color: #00ff00;"></i>
-              <i class="fa-solid fa-heart card-like" style="color: #00ff00;"></i>
+          <div class="card-content">
+            <div class="card-title"></div>
+            <div class="card-info">
+              <div class="card-date">
+                16-06-2023
+              </div>
+              <div class="card-action">
+                <i class="fa-solid fa-share-from-square" style="color: #00ff00"></i>
+                <i class="fa-solid fa-heart card-like" style="color: #00ff00"></i>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="cards">
-          <div class="card-img">
-
-          </div>
-          <div class="card-text">
-
-          </div>
-          <div class="card-end">
-            <div class="card-date">
-
-            </div>
-            <div class="card-feature">
-              <i class="fa-solid fa-share-from-square" style="color: #00ff00;"></i>
-              <i class="fa-solid fa-heart card-like" style="color: #00ff00;"></i>
+          <div class="card-content">
+            <div class="card-title"></div>
+            <div class="card-info">
+              <div class="card-date">
+                16-06-2023
+              </div>
+              <div class="card-action">
+                <i class="fa-solid fa-share-from-square" style="color: #00ff00"></i>
+                <i class="fa-solid fa-heart card-like" style="color: #00ff00"></i>
+              </div>
             </div>
           </div>
         </div>
@@ -513,7 +666,7 @@
           <div class="card-img">
             <img src="assets/logo-small.png" alt="All Solutions">
           </div>
-          <div class="card-text">
+          <div class="card-title">
             All Topics
           </div>
           <div class="card-end">
@@ -530,20 +683,8 @@
       </div>
     </section> -->
 
-
     <footer>
       <!-- Footer -->
     </footer>
-
-    <script>
-      window.chatbaseConfig = {
-        chatbotId: "2AFuAtAz1lbqcqI7X-7SA",
-      };
-    </script>
-    <script
-      src="https://www.chatbase.co/embed.min.js"
-      id="2AFuAtAz1lbqcqI7X-7SA"
-      defer
-    ></script>
   </body>
 </html>
