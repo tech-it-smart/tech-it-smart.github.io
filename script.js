@@ -1,27 +1,27 @@
 // Card Click Actions 
 const shutdownWin11 = document.querySelector("#card-1")
 shutdownWin11.onclick = function() {
-    location.href = "Solutions/Shutdown-Windows-11.html"
+    location.href = "solutions/Shutdown-Windows-11.html"
 }
 
 const winKeyShortcut = document.querySelector("#card-2")
 winKeyShortcut.onclick = function() {
-    location.href = "Solutions/shortcuts.html"
+    location.href = "solutions/shortcuts.html"
 }
 
 const hibernateWin11 = document.querySelector("#card-3")
 hibernateWin11.onclick = function() {
-    location.href = "Solutions/hibernate.html"
+    location.href = "solutions/hibernate.html"
 }
 
 const godMode = document.querySelector("#card-4")
 godMode.onclick = function() {
-    location.href = "Solutions/god-mode.html"
+    location.href = "solutions/god-mode.html"
 }
 
 const comingSoon = document.querySelector("#card-5")
 comingSoon.onclick = function() {
-    location.href = "Solutions"
+    location.href = "solutions"
 }
 
 
