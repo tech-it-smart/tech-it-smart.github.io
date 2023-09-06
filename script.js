@@ -52,7 +52,7 @@ if (Notification.permission === "granted") {
     })
 }
 function showNotification() {
-    if ("Notification" in window || "serviseWorker" in navigator) {
+    if ("Notification" in window || "serviceWorker" in navigator) {
         const notify = new Notification("Website Under Development", {
             body: "Click here to go to Discord",
             icon: "/assets/logo-small.png"
