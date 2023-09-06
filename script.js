@@ -54,7 +54,7 @@ if (Notification.permission === "granted") {
 function showNotification() {
     if ("Notification" in window || "serviseWorker" in navigator) {
         const notify = new Notification("Alert", {
-            body: "Notification Body",
+            body: "Website Under Development",
             icon: "/assets/logo-small.png"
         })
         notify.onclick = function() {
