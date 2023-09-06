@@ -53,8 +53,8 @@ if (Notification.permission === "granted") {
 }
 function showNotification() {
     if ("Notification" in window || "serviseWorker" in navigator) {
-        const notify = new Notification("Alert", {
-            body: "Website Under Development",
+        const notify = new Notification("Website Under Development", {
+            body: "Click here to go to Discord",
             icon: "/assets/logo-small.png"
         })
         notify.onclick = function() {
