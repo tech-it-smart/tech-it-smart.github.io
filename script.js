@@ -1,3 +1,16 @@
+// Pop-up Actions
+document.querySelector("#close-popup").addEventListener("click", () => {
+    document.querySelector("#popup").remove()
+})
+
+document.querySelector(".previous-version").addEventListener("click", () => {
+    location.href = "v1.9/"
+})
+
+
+
+
+
 // Card Click Actions 
 const shutdownWin11 = document.querySelector("#card-1")
 shutdownWin11.onclick = function() {
@@ -23,7 +36,6 @@ const comingSoon = document.querySelector("#card-5")
 comingSoon.onclick = function() {
     location.href = "solutions"
 }
-
 
 
 

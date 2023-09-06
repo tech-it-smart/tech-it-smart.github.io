@@ -54,6 +54,119 @@ html {
   -webkit-text-fill-color: var(--background);
 }
 
+#popup {
+  width: 100%;
+  height: 100%;
+  /* height: 100vh; */
+  /* display: block; */
+  background: #0000;
+  /* backdrop-filter: blur(100px); */
+  position: fixed;
+  /* top: 100px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 11;
+  transform: scale(0);
+  animation: scale 500ms 5s cubic-bezier(0.42, 0, 0.12, 1.46) forwards,
+  bgblur 500ms 5500ms ease forwards;
+  /* z-index: -1; */
+}
+
+@keyframes scale {
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes bgblur {
+  to {
+    background: #0008;
+    backdrop-filter: blur(100px);
+  }
+}
+
+#popup-card {
+  border: 2px solid #0f0a;
+  height: 50vh;
+  width: 50vw;
+  background: #000;
+  border-radius: 8px;
+  box-shadow: 0 0 24px #0f0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#close-popup {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.popup-head {
+  color: #0f0;
+  font-family: var(--font-heading);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.popup-text {
+  font-family: var(--font-body);
+}
+
+.previous-version {
+  margin-top: 10px;
+  padding: 10px 25px;
+  /* border: 2px solid #0f0; */
+  border: none;
+  /* position: relative; */
+  /* outline: none; */
+  border-radius: 8px;
+  box-shadow: inset -3px -3px 8px #0f0;
+  font-size: 16px;
+  text-align: center;
+  font-family: var(--font-body);
+  transition: all 200ms;
+  position: relative;
+}
+
+.previous-version:hover {
+  box-shadow: inset -3px -3px 12px #0f0;
+}
+
+.previous-version:active {
+  box-shadow: inset 3px 3px 8px #0f0;
+}
+
+.gradient-circle {
+  position: absolute;
+  /* top: 10px;
+  left: 100px; */
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(#0f0, transparent);
+  border-radius: 100px;
+}
+
+.circle-1 {
+  background: linear-gradient(to left, #0f02, transparent);
+  /* position: absolute; */
+  /* position: relative; */
+  top: -15px;
+  left: -25px;
+}
+
+.circle-2 {
+  background: linear-gradient(to right, #0f02, transparent);
+  /* position: relative; */
+  bottom: -25px;
+  right: -15px;
+}
+
 header {
   /* border: 2px solid var(--theme-f); */
   border-bottom-right-radius: 1.25rem;
@@ -239,7 +352,7 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
-#down-arrow-google-icon {
+.google-icon {
   color: var(--theme-f);
   font-weight: 700;
   box-shadow: 0 0 8px var(--theme-f);
@@ -249,7 +362,7 @@ a {
   transition: all 300ms;
 }
 
-#down-arrow-google-icon:hover {
+.google-icon:hover {
   color: var(--background);
   background: var(--theme-f);
   box-shadow: 0 0 10px var(--theme-f);
