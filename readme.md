@@ -15,7 +15,7 @@ Thank you for choosing Tech IT Smart.
 Social Media
 ---
 - [YouTube](https://www.youtube.com/@Techitsmartofficial)
-- [Discord](https://discord.gg/Vg5vEJj6)
+- [Discord](https://discord.gg/HEbRJVaqp2)
 - [Instagram](https://www.instagram.com/techitsmartofficial/)
 - [Telegram](https://t.me/TechITsmart)
 - [LinkedIn](https://www.linkedin.com/company/tech-it-smart/)
