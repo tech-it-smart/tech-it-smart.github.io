@@ -1,4 +1,4 @@
-![Tech IT Smart](https://tech-it-smart.github.io/assets/logo.png)
+![Tech IT Smart](assets/logo.png)
 >Drive Your Tech Smartly
 
 ---
